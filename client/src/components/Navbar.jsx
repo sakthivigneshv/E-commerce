@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
-import { ShoppingBag, Search, User, LogOut, ShieldCheck, ShoppingCart, Sparkles, X, ChevronRight, Store } from 'lucide-react';
+import { ShoppingBag, Search, User, LogOut, ShieldCheck, ShoppingCart, Sparkles, X, ChevronRight, Store, Award } from 'lucide-react';
 import ThemeSelector from './ThemeSelector';
 
 const Navbar = () => {
@@ -214,6 +214,10 @@ const Navbar = () => {
         {/* Desktop Navigation Links */}
         <nav style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
           <ThemeSelector />
+
+          <Link to="/project-review" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontWeight: '700', fontSize: '0.9rem', color: 'var(--primary)', background: 'rgba(99, 102, 241, 0.1)', padding: '6px 12px', borderRadius: '8px' }}>
+            <Award size={16} /> Project Review
+          </Link>
 
           {isLoggedIn ? (
             <>

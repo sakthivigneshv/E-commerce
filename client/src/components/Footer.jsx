@@ -68,6 +68,7 @@ const Footer = () => {
           <div>
             <h4 style={{ marginBottom: '1rem', fontSize: '0.95rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--text-muted)' }}>Explore</h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
+              <li><Link to="/project-review" style={{ fontWeight: '700', color: 'var(--primary)' }}>★ System Project Review</Link></li>
               <li><Link to="/shop">All Products</Link></li>
               <li><Link to="/shop?category=Electronics">Electronics</Link></li>
               <li><Link to="/shop?category=Audio">Audio Gear</Link></li>

@@ -20,6 +20,7 @@ import SellerDashboard from './pages/SellerDashboard';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import VerifyOTPPage from './pages/VerifyOTPPage';
+import ProjectReviewPage from './pages/ProjectReviewPage';
 
 // Protected Route Wrapper - Requires Login & Dual Verification
 const RequireVerifiedAuth = ({ children }) => {
@@ -55,6 +56,7 @@ function AppContent() {
           {/* Main Store Pages */}
           <Route path="/" element={<RequireVerifiedAuth><HomePage /></RequireVerifiedAuth>} />
           <Route path="/shop" element={<RequireVerifiedAuth><ShopPage /></RequireVerifiedAuth>} />
+          <Route path="/project-review" element={<ProjectReviewPage />} />
           <Route path="/product/:id" element={<RequireVerifiedAuth><ProductDetailPage /></RequireVerifiedAuth>} />
           <Route path="/cart" element={<RequireVerifiedAuth><CartPage /></RequireVerifiedAuth>} />
           <Route path="/checkout" element={<RequireVerifiedAuth><CheckoutPage /></RequireVerifiedAuth>} />
