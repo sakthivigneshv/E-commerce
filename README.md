@@ -6,8 +6,22 @@ VizHop is a modern full-stack e-commerce web application built using the MERN st
 
 - **Google Drive Folder (Assets / Resources):** [View Google Drive Resources](https://drive.google.com/drive/folders/1J1HJXk0-ulXiSHNRxvw3o8i5y70Qi_ub?usp=drive_link)
 
-  - **Live vercer production website:**
+- **Live vercer production website:**
   https://vizhop-ecommerce.vercel.app
+
+- **API Health Check:** https://vizhop-ecommerce.vercel.app/api/health
+
+- **Products API:** https://vizhop-ecommerce.vercel.app/api/products
+
+- **Auth API:** https://vizhop-ecommerce.vercel.app/api/auth
+
+- **Cart API:** https://vizhop-ecommerce.vercel.app/api/cart
+
+- **Orders API:** https://vizhop-ecommerce.vercel.app/api/orders
+
+- **Admin API:** https://vizhop-ecommerce.vercel.app/api/admin
+
+- **Seller API:** https://vizhop-ecommerce.vercel.app/api/seller
 
 ## 🚀 Getting Started
 
