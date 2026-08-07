@@ -4,8 +4,10 @@ import axios from 'axios';
 import App from './App.jsx';
 import './index.css';
 
-// Set direct backend API server connection URL
-axios.defaults.baseURL = 'http://localhost:5000';
+// Set backend API server URL if specified in environment
+if (import.meta.env.VITE_API_URL) {
+  axios.defaults.baseURL = import.meta.env.VITE_API_URL;
+}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
