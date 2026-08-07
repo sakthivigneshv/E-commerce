@@ -5,7 +5,8 @@ VizHop is a modern full-stack e-commerce web application built using the MERN st
 ## 📁 Project Resources & Assets
 
 - **Google Drive Folder (Assets / Resources):** [View Google Drive Resources](https://drive.google.com/drive/folders/1J1HJXk0-ulXiSHNRxvw3o8i5y70Qi_ub?usp=drive_link)
-  **Live versel production website:**
+
+  -**Live versel production website:**
   https://vizhop-ecommerce.vercel.app
 
 ## 🚀 Getting Started
